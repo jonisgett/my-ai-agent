@@ -1,0 +1,1 @@
+"""Memory system - SQLite + vector hybrid search, fully local."""

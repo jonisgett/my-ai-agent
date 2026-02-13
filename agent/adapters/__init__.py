@@ -1,0 +1,1 @@
+"""Adapaters - how you talk to your agent (Terminal, Slack, etc)"""

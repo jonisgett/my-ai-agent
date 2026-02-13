@@ -1,0 +1,1 @@
+"""Skills - local, drop-in capabilities. No public registry."""
