@@ -1,0 +1,16 @@
+# Core - the essentials
+anthropic>=0.42.0
+python-dotenv>=1.0.0
+
+# Memory - local embeddings (no API calls needed)
+fastembed>=0.4.0
+
+# Terminal - pretty output
+rich>=13.7.0
+
+# Heartbeat - scheduling
+schedule>=1.2.0
+
+# Skills - parsing SKILL.md frontmatter
+pyyaml>=6.0.0
+
