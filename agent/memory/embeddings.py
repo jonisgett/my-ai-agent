@@ -102,7 +102,7 @@ def serialize_vector(vec: list[float]) -> bytes:
     
     Each float is 4 bytes, so a 384-dim vector = 1,536 bytes.
     """
-    return struct.pact(f"{len(vec)}f", *vec)
+    return struct.pack(f"{len(vec)}f", *vec)
 
 def deserialize_vector(data: bytes) -> list[float]:
     """Convert bytes back to a vector (reverse of serialize_vector)."""
